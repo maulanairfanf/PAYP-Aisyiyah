@@ -85,7 +85,7 @@
             >Register</router-link
           >
         </base-dropdown> -->
-        <a
+        <!-- <a
           slot="title"
           href="#"
           class="nav-link"
@@ -94,7 +94,8 @@
         >
           <i class="ni ni-collection d-lg-none"></i>
           <span class="nav-link-inner--text">Home</span>
-        </a><a
+        </a> -->
+        <a
           slot="title"
           href="#"
           class="nav-link"
