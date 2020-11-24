@@ -1,8 +1,14 @@
 <template>
   <header class="header-global">
-    <base-nav class="navbar-maind-flex justify-content-center" transparent type="" effect="light" expand>
+    <base-nav
+      class="navbar-maind-flex justify-content-center"
+      transparent
+      type=""
+      effect="light"
+      expand
+    >
       <router-link slot="brand" class="navbar-brand mr-5" to="/">
-        <h3 class="text-white text-capitalize" >PYAP Aisyiyah</h3>
+        <h3 class="text-white text-capitalize">PYAP Aisyiyah</h3>
       </router-link>
 
       <div class="row" slot="content-header" slot-scope="{ closeMenu }">
@@ -10,7 +16,7 @@
           <a
             href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
           >
-        <h3 class="text-black text-capitalize" >PYAP Aisyiyah</h3>
+            <h3 class="text-black text-capitalize">PYAP Aisyiyah</h3>
           </a>
         </div>
         <div class="col-6 collapse-close">
@@ -18,7 +24,7 @@
         </div>
       </div>
 
-      <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-5" >
+      <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-5">
         <!-- <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
           <a
             slot="title"
@@ -85,7 +91,7 @@
             >Register</router-link
           >
         </base-dropdown> -->
-        <!-- <a
+        <a
           slot="title"
           href="#"
           class="nav-link"
@@ -94,7 +100,7 @@
         >
           <i class="ni ni-collection d-lg-none"></i>
           <span class="nav-link-inner--text">Home</span>
-        </a> -->
+        </a>
         <a
           slot="title"
           href="#"
@@ -125,7 +131,7 @@
           <i class="ni ni-collection d-lg-none"></i>
           <span class="nav-link-inner--text">About Us</span>
         </a>
-         <a
+        <a
           slot="title"
           href="#"
           class="nav-link"
