@@ -3,6 +3,7 @@
         <hero></hero>
         <home></home>
         <kegiatan></kegiatan>
+        <contact></contact>
         <!-- <inputs></inputs> -->
         <!-- <custom-controls></custom-controls>
         <navigation></navigation>
@@ -17,6 +18,7 @@
 import Hero from "./components/Hero";
 import Home from "./components/Home";
 import Kegiatan from "./components/Kegiatan";
+import Contact from "./components/Contact";
 // import Inputs from "./components/Inputs";
 // import CustomControls from "./components/CustomControls";
 // import Navigation from "./components/Navigation";
@@ -32,6 +34,7 @@ export default {
     Hero,
     Home,
     Kegiatan,
+    Contact,
     // Inputs,
     // CustomControls,
     // Navigation,
