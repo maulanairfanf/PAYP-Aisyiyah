@@ -101,7 +101,7 @@ export default {};
 .shadow {
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  padding: 1em;
+  padding: 1em; 
 }
 
 .visiMisi {
