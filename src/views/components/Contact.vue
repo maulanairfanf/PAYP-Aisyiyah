@@ -26,7 +26,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 .latar {
   width: 90%;
 }
@@ -38,5 +38,6 @@ export default {};
 
 .visiMisi {
   width: 95%;
+  border : 2px solid black
 }
 </style>
