@@ -4,7 +4,7 @@
       <div class="text-center">
         <img src="img/panti/fotoPanti.png" class="img-fluid" alt="Foto-Panti" />
       </div>
-      <div class="mb-5 mt-5 d-flex justify-content-around">
+      <div class="mt-5 d-flex justify-content-around">
         <div class="latar">
           <h3>Latar Belakang</h3>
           <div class="shadow">
@@ -22,67 +22,25 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid d-flex flex-row justify-content-around">
-        <div class="visiMisi">
+      <div
+        class="container-fluid d-flex row bd-highlight justify-content-around mx-auto"
+      >
+        <div class="visiMisi mt-5">
           <h3>Visi</h3>
           <div class="shadow">
             <ul>
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-                quia nulla earum quam quae animi quidem sequi mollitia
-                cupiditate nihil quis cumque quod eius, error pariatur. Debitis
-                beatae molestiae accusamus.
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-                quia nulla earum quam quae animi quidem sequi mollitia
-                cupiditate nihil quis cumque quod eius, error pariatur. Debitis
-                beatae molestiae accusamus.
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-                quia nulla earum quam quae animi quidem sequi mollitia
-                cupiditate nihil quis cumque quod eius, error pariatur. Debitis
-                beatae molestiae accusamus.
-              </li>
-
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-                quia nulla earum quam quae animi quidem sequi mollitia
-                cupiditate nihil quis cumque quod eius, error pariatur. Debitis
-                beatae molestiae accusamus.
+              <li v-for="(item, i) in items" :key="i">
+                {{ item.text }}
               </li>
             </ul>
           </div>
         </div>
-        <div class="visiMisi">
+        <div class="visiMisi mt-5">
           <h3>Misi</h3>
           <div class="shadow">
             <ul>
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-                quia nulla earum quam quae animi quidem sequi mollitia
-                cupiditate nihil quis cumque quod eius, error pariatur. Debitis
-                beatae molestiae accusamus.
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-                quia nulla earum quam quae animi quidem sequi mollitia
-                cupiditate nihil quis cumque quod eius, error pariatur. Debitis
-                beatae molestiae accusamus.
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-                quia nulla earum quam quae animi quidem sequi mollitia
-                cupiditate nihil quis cumque quod eius, error pariatur. Debitis
-                beatae molestiae accusamus.
-              </li>
-
-              <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-                quia nulla earum quam quae animi quidem sequi mollitia
-                cupiditate nihil quis cumque quod eius, error pariatur. Debitis
-                beatae molestiae accusamus.
+              <li v-for="(item, i) in items" :key="i">
+                {{ item.text }}
               </li>
             </ul>
           </div>
@@ -92,19 +50,46 @@
   </section>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      items: [
+        {
+          text:
+            " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quia nulla earum quam quae animi quidem sequi mollitia cupiditate nihil quis cumque quod eius, error pariatur. Debitis beatae molestiae accusamus.",
+        },
+        {
+          text:
+            " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quia nulla earum quam quae animi quidem sequi mollitia cupiditate nihil quis cumque quod eius, error pariatur. Debitis beatae molestiae accusamus.",
+        },
+        {
+          text:
+            " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quia nulla earum quam quae animi quidem sequi mollitia cupiditate nihil quis cumque quod eius, error pariatur. Debitis beatae molestiae accusamus.",
+        },
+        {
+          text:
+            " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quia nulla earum quam quae animi quidem sequi mollitia cupiditate nihil quis cumque quod eius, error pariatur. Debitis beatae molestiae accusamus.",
+        },
+        {
+          text:
+            " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quia nulla earum quam quae animi quidem sequi mollitia cupiditate nihil quis cumque quod eius, error pariatur. Debitis beatae molestiae accusamus.",
+        },
+      ],
+    };
+  },
+};
 </script>
-<style>
+<style scoped>
 .latar {
   width: 90%;
 }
 .shadow {
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  padding: 1em; 
+  padding: 1em;
 }
 
 .visiMisi {
-  width: 40%;
+  width: 700px;
 }
 </style>
