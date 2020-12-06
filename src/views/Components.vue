@@ -1,6 +1,6 @@
 <template>
     <div>
-        <hero></hero>
+        <!-- <hero></hero> -->
         <home></home>
         <kegiatan></kegiatan>
         <contact></contact>
@@ -15,7 +15,7 @@
     </div>
 </template>
 <script>
-import Hero from "./components/Hero";
+// import Hero from "./components/Hero";
 import Home from "./components/Home";
 import Kegiatan from "./components/Kegiatan";
 import Contact from "./components/Contact";
@@ -31,7 +31,7 @@ import Contact from "./components/Contact";
 export default {
   name: "components",
   components: {
-    Hero,
+    // Hero,
     Home,
     Kegiatan,
     Contact,

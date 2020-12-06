@@ -9,13 +9,13 @@
         <div class="shadow d-flex row pb-4 pr-3 pl-3 pt-4 row box kegiatan">
           <div class="col-lg-6 mb-2">
             <img
-              src="img/theme/img-2-1200x1000.jpg"
+              src="img/panti/jalanpagi.png"
               alt=""
               class="responsive-img pictKegiatan rounded"
             />
           </div>
           <div class="col-lg-6">
-            <h3>Nama Kegiatan</h3>
+            <h3>Jalan Pagi</h3>
             <span
               >Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo dolore beatae voluptate quia! Libero pariatur ut quam
@@ -27,13 +27,13 @@
       </div>
       <div class="mt-5 justify-content-around d-flex row">
         <div
-          class="card rounded"
+          class="card rounded mt-3"
           style="width: 22rem"
           v-for="(item, i) in items"
           :key="i"
         >
           <img
-            class="card-img-top rounded h-50"
+            class="w-100 h-100 rounded"
             :src="item.src"
             alt="Card image cap"
           />
@@ -55,52 +55,52 @@ export default {
     return {
       items: [
         {
-          tittle: "Title",
+          tittle: "HUT RI",
           text:
             "Some quick example text to build on the card title and make up the bulk of the card's content.",
-          src: "img/theme/img-2-1200x1000.jpg",
+          src: "img/panti/hutRI.png",
+        },
+        {
+          tittle: "Shalat Berjamaah",
+          text:
+            "Some quick example text to build on the card title and make up the bulk of the card's content.",
+          src: "img/panti/solat.png",
+        },
+        {
+          tittle: "Kajian Keputrian",
+          text:
+            "Some quick example text to build on the card title and make up the bulk of the card's content.",
+          src: "img/panti/kajiankeputrian.png",
+        },
+        {
+          tittle: "Idul Adha",
+          text:
+            "Some quick example text to build on the card title and make up the bulk of the card's content.",
+          src: "img/panti/iduladha.png",
+        },
+        {
+          tittle: "Rihlah Bersama",
+          text:
+            "Some quick example text to build on the card title and make up the bulk of the card's content.",
+          src: "img/panti/rihlahbersama.png",
+        },
+        {
+          tittle: "Produksi Telur Asin",
+          text:
+            "Some quick example text to build on the card title and make up the bulk of the card's content.",
+          src: "img/panti/produksitelurasin.png",
+        },
+        {
+          tittle: "Wirausaha Telur Asin",
+          text:
+            "Some quick example text to build on the card title and make up the bulk of the card's content.",
+          src: "img/panti/wirausahatelurasin.png",
         },
         {
           tittle: "Title",
           text:
             "Some quick example text to build on the card title and make up the bulk of the card's content.",
-          src: "img/theme/img-2-1200x1000.jpg",
-        },
-        {
-          tittle: "Title",
-          text:
-            "Some quick example text to build on the card title and make up the bulk of the card's content.",
-          src: "img/theme/img-2-1200x1000.jpg",
-        },
-        {
-          tittle: "Title",
-          text:
-            "Some quick example text to build on the card title and make up the bulk of the card's content.",
-          src: "img/theme/img-2-1200x1000.jpg",
-        },
-        {
-          tittle: "Title",
-          text:
-            "Some quick example text to build on the card title and make up the bulk of the card's content.",
-          src: "img/theme/img-2-1200x1000.jpg",
-        },
-        {
-          tittle: "Title",
-          text:
-            "Some quick example text to build on the card title and make up the bulk of the card's content.",
-          src: "img/theme/img-2-1200x1000.jpg",
-        },
-        {
-          tittle: "Title",
-          text:
-            "Some quick example text to build on the card title and make up the bulk of the card's content.",
-          src: "img/theme/img-2-1200x1000.jpg",
-        },
-        {
-          tittle: "Title",
-          text:
-            "Some quick example text to build on the card title and make up the bulk of the card's content.",
-          src: "img/theme/img-2-1200x1000.jpg",
+          src: "img/panti/iduladha.png",
         },
       ],
     };
