@@ -1,8 +1,10 @@
 <template>
-  <section class="section section-components pb-0" id="section-components">
-    <div class="container-fluid">
-      <div class="text-center">
-        <img src="img/panti/fotoPanti.png" class="img-fluid" alt="Foto-Panti" />
+  <section
+    class="section section-components m-0 p-0"
+  >
+    <div>
+      <div class="text-center mt-0">
+        <img src="img/panti/fotoPanti.png" class="w-100" alt="Foto-Panti" />
       </div>
       <div class="mt-5 d-flex justify-content-around">
         <div class="latar">

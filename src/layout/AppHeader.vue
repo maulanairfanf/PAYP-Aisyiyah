@@ -1,77 +1,47 @@
 <template>
-  <header class="header-global ">
+  <header class="header-global">
     <base-nav
-      class="navbar-maind-flex justify-content-center shadow-lg mb-1 bg-white rounded"
+      class="navbar-main d-flex justify-content-start shadow-lg mb-1 bg-white rounded"
       effect="light"
       expand
     >
-      <router-link slot="brand" class="navbar-brand mr-5" to="/">
-        <!-- <h3 class="text-white text-capitalize">PYAP Aisyiyah</h3> -->
-        <img src="img/panti/LogoNavbar.png" class="img-fluid  " alt="Logo Panti" />
+      <router-link slot="brand" class="mr-5" to="/">
+        <img
+          src="img/panti/LogoNavbar.png"
+          class="img-fluid"
+          alt="Logo Panti"
+        />
       </router-link>
 
       <div class="row" slot="content-header" slot-scope="{ closeMenu }">
         <div class="col-6 collapse-brand">
-          <a
-            href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
-          >
-            <h3 class="text-black text-capitalize">PYAP Aisyiyah</h3>
-          </a>
+          <h3 class="text-black text-capitalize">PYAP Aisyiyah</h3>
         </div>
         <div class="col-6 collapse-close">
           <close-button @click="closeMenu"></close-button>
         </div>
       </div>
 
-      <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-5">
-        <a
-          slot="title"
-          href="#"
-          class="nav-link "
-          data-toggle="dropdown"
-          role="button"
-        >
-          <i class="ni ni-collection d-lg-none"></i>
+      <ul class="navbar-nav navbar-nav-hover d-flex justify-content-around">
+        <!-- <router-link to="/JavascriptComponents/home" class="dropdown-item">Landing</router-link> -->
+        <a slot="title" href="#" class="nav-link ml-5" role="button">
+          <!-- <i class="ni ni-collection d-lg-none"></i> -->
           <span class="nav-link-inner--text">Home</span>
         </a>
-        <a
-          slot="title"
-          href="#"
-          class="nav-link"
-          data-toggle="dropdown"
-          role="button"
-        >
-          <i class="ni ni-collection d-lg-none"></i>
+        <a slot="title" href="#" class="nav-link ml-5" role="button">
+          <!-- <i class="ni ni-collection d-lg-none"></i> -->
           <span class="nav-link-inner--text">Kegiatan</span>
         </a>
-        <a
-          slot="title"
-          href="#"
-          class="nav-link"
-          data-toggle="dropdown"
-          role="button"
-        >
-          <i class="ni ni-collection d-lg-none"></i>
+        <a slot="title" href="#" class="nav-link ml-5" role="button">
+          <!-- <i class="ni ni-collection d-lg-none "></i> -->
           <span class="nav-link-inner--text">Prestasi</span>
         </a>
-        <a
-          slot="title"
-          href="#"
-          class="nav-link"
-          data-toggle="dropdown"
-          role="button"
-        >
-          <i class="ni ni-collection d-lg-none"></i>
+        <a slot="title" href="#" class="nav-link ml-5" role="button">
+          <!-- <i class="ni ni-collection d-lg-none"></i> -->
           <span class="nav-link-inner--text">About Us</span>
         </a>
-        <a
-          slot="title"
-          href="#"
-          class="nav-link"
-          data-toggle="dropdown"
-          role="button"
-        >
-          <i class="ni ni-collection d-lg-none"></i>
+        <a slot="title" href="#" class="nav-link ml-5" role="button">
+          <!-- <i class="ni ni-collection d-lg-none"></i> -->
           <span class="nav-link-inner--text">Contact</span>
         </a>
       </ul>
@@ -91,5 +61,14 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
+.nav-link-inner--text {
+  /* font-family: Lato; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+.nav-link-inner--text:hover {
+  color: #4f76a9;
+}
 </style>

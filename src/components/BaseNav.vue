@@ -9,7 +9,7 @@
          ]">
         <div class="container">
             <slot name="container-pre"></slot>
-            <slot name="brand">
+            <slot name="brand" style="border : 2px solid black">
                 <a class="navbar-brand" href="#" @click.prevent="onTitleClick">
                     {{title}}
                 </a>
