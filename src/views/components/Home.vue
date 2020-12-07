@@ -1,50 +1,48 @@
 <template>
-  <section
-    class="section section-components m-0 p-0"
-  >
-    <div>
+  <section class="section section-components m-0 p-0">
+    <div class="p-0 m-0">
       <div class="text-center mt-0">
         <img src="img/panti/fotoPanti.png" class="w-100" alt="Foto-Panti" />
       </div>
-      <div class="mt-5 d-flex justify-content-around">
-        <div class="latar">
-          <h3>Latar Belakang</h3>
-          <div class="shadow">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            eaque vel id. Sit delectus quas sed nostrum alias unde eius
-            quibusdam amet necessitatibus beatae! Reprehenderit qui quidem earum
-            sit quis? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Delectus consequatur commodi unde laborum necessitatibus, quidem
-            praesentium debitis accusamus quos ipsa tempora quibusdam optio
-            porro, corrupti aperiam voluptates assumenda repellat. Laudantium!
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Reprehenderit earum ipsa similique consectetur! Accusantium vero
-            tenetur tempora, saepe suscipit animi cupiditate error quisquam
-            voluptatum vel sit nam laudantium cumque nemo!
+      <div class="mt-5 d-flex justify-content-center">
+        <div class="col-xl-6" v-for="(infos, i) in info" :key="i">
+          <div class="d-flex justify-content-center">
+            <h3 class="mt-3 mb-5 col-xl-6 text-center">
+              {{ infos.tittle }}
+            </h3>
+          </div>
+          <div class="mt-3 mb-5 text-center">
+            {{ infos.isi }}
           </div>
         </div>
       </div>
-      <div
-        class="container-fluid d-flex row bd-highlight justify-content-around mx-auto"
-      >
-        <div class="visiMisi mt-5">
-          <h3>Visi</h3>
-          <div class="shadow">
-            <ul>
-              <li v-for="(item, i) in items" :key="i">
-                {{ item.text }}
-              </li>
-            </ul>
+      <div class="m-0">
+        <img
+          src="img/panti/visimisiiilusi.svg"
+          class="w-100"
+          alt="Foto-Panti"
+        />
+      </div>
+      <div>
+        <div>
+          <h3>Visi Kami</h3>
+          <div>
+            <ol>
+              <li v-for="(visi, i) in Visis" :key="i">{{ visi.isi }}</li>
+            </ol>
           </div>
         </div>
-        <div class="visiMisi mt-5">
-          <h3>Misi</h3>
-          <div class="shadow">
-            <ul>
-              <li v-for="(item, i) in items" :key="i">
-                {{ item.text }}
+        <div>
+          <h3>Misi Kami</h3>
+          <div>
+            <ol>
+              <li v-for="(misi, i) in Misis" :key="i">
+                {{ misi.isi }}
+                <ul>
+                  <li>{{misi.rincian}}</li>
+                </ul>
               </li>
-            </ul>
+            </ol>
           </div>
         </div>
       </div>
@@ -55,26 +53,46 @@
 export default {
   data() {
     return {
-      items: [
+      info: [
         {
-          text:
-            " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quia nulla earum quam quae animi quidem sequi mollitia cupiditate nihil quis cumque quod eius, error pariatur. Debitis beatae molestiae accusamus.",
+          tittle:
+            "PAYPA merupakan panti asuhan yang bertepatan di Kotabarat Surakarta, Jawa Tengah",
+          isi:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eaque vel id. Sit delectus quas sed nostrum alias unde eius quibusdam amet necessitatibus beatae! Reprehenderit qui quidem earum sit quis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus consequatur commodi unde laborum necessitatibus, quidem praesentium debitis accusamus quos ipsa tempora quibusdam optio porro, corrupti aperiam voluptates assumenda repellat. Laudantium! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit earum ipsa similique consectetur! Accusantium vero tenetur tempora, saepe suscipit animi cupiditate error quisquam voluptatum vel sit nam laudantium cumque nemo!",
+        },
+      ],
+      Visis: [
+        {
+          isi:
+            "Berusaha lebih meningkatkan pendidikan, kesehatan, kedisiplinan bagi anak-anak asuh di dalam panti maupun diluar panti",
         },
         {
-          text:
-            " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quia nulla earum quam quae animi quidem sequi mollitia cupiditate nihil quis cumque quod eius, error pariatur. Debitis beatae molestiae accusamus.",
+          isi:
+            "Menanamkan rasa disiplin dan tanggung jawab pada anak asuh dalam pembinaan pendidikan sekolah, agama, kebersihan, ketertiban lingkungan dip anti yang langsung dipimpin oleh ketua regu masing-masing anak supaya bisa mandiri dan diawasi oleh bapak ibu pengasuh ",
+        },
+      ],
+      Misis: [
+        {
+          isi: "Meningkatkan pendidikan anak-anak dalam bidang keagamaan :",
+          rincian: [
+            {
+              rinci:
+                "Mengadakan pengajian, pendidikan akhlak, budi pekerti dan ke-Muhammadiyahan",
+            },
+            {
+              rinci: "Memperdalam bacaan Al Qur’an dan diskusi keagamaan ",
+            },
+            {
+              rinci: "Mengadakan/mengikuti penataran-penataran agama ",
+            },
+          ],
         },
         {
-          text:
-            " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quia nulla earum quam quae animi quidem sequi mollitia cupiditate nihil quis cumque quod eius, error pariatur. Debitis beatae molestiae accusamus.",
+          isi: "	Meningkatkan anak dalam bidang studi",
         },
         {
-          text:
-            " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quia nulla earum quam quae animi quidem sequi mollitia cupiditate nihil quis cumque quod eius, error pariatur. Debitis beatae molestiae accusamus.",
-        },
-        {
-          text:
-            " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quia nulla earum quam quae animi quidem sequi mollitia cupiditate nihil quis cumque quod eius, error pariatur. Debitis beatae molestiae accusamus.",
+          isi:
+            "Meningkatkan ketrampilan anak untuk mendidik anak asuh supaya mandiri",
         },
       ],
     };
@@ -82,16 +100,4 @@ export default {
 };
 </script>
 <style scoped>
-.latar {
-  width: 90%;
-}
-.shadow {
-  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  padding: 1em;
-}
-
-.visiMisi {
-  width: 700px;
-}
 </style>
