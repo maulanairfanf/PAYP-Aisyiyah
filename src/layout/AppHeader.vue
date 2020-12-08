@@ -24,23 +24,23 @@
 
       <ul class="navbar-nav navbar-nav-hover d-flex justify-content-around">
         <!-- <router-link to="/JavascriptComponents/home" class="dropdown-item">Landing</router-link> -->
-        <a slot="title" href="#" class="nav-link ml-5" role="button">
+        <a slot="title" href="#Home" class="nav-link ml-5" role="button">
           <!-- <i class="ni ni-collection d-lg-none"></i> -->
           <span class="nav-link-inner--text">Home</span>
         </a>
-        <a slot="title" href="#" class="nav-link ml-5" role="button">
+        <a slot="title" href="#Kegiatan" class="nav-link ml-5" role="button">
           <!-- <i class="ni ni-collection d-lg-none"></i> -->
           <span class="nav-link-inner--text">Kegiatan</span>
         </a>
-        <a slot="title" href="#" class="nav-link ml-5" role="button">
+        <a slot="title" href="#Prestasi" class="nav-link ml-5" role="button">
           <!-- <i class="ni ni-collection d-lg-none "></i> -->
           <span class="nav-link-inner--text">Prestasi</span>
         </a>
-        <a slot="title" href="#" class="nav-link ml-5" role="button">
+        <a slot="title" href="#About Us" class="nav-link ml-5" role="button">
           <!-- <i class="ni ni-collection d-lg-none"></i> -->
           <span class="nav-link-inner--text">About Us</span>
         </a>
-        <a slot="title" href="#" class="nav-link ml-5" role="button">
+        <a slot="title" href="#Contact" class="nav-link ml-5" role="button">
           <!-- <i class="ni ni-collection d-lg-none"></i> -->
           <span class="nav-link-inner--text">Contact</span>
         </a>

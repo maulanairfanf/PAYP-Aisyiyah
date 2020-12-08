@@ -1,5 +1,5 @@
 <template>
-  <section class="section section-components pb-0" id="section-components">
+  <section class="section section-components pb-0" id="Kegiatan">
     <div class="container-fluid kegiatan">
       <div class="mb-5">
         <h3>Kegiatan</h3>

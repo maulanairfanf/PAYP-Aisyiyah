@@ -46,12 +46,12 @@
                   {{ visi.isi }}
                 </li>
               </ol>
-              <h3 class="font-weight-bold">Misi Kami</h3>
+              <h3 class="font-weight-bold mt-5">Misi Kami</h3>
               <div class="col-xl-8">
                 <ol class="h5">
                   <li class="mt-3" v-for="(misi, i) in Misis" :key="i">
                     {{ misi.isi }}
-                    <ul v-for="(detail, x) in rincian" :key="x">
+                    <ul v-for="(detail, x) in Misis.rincian" :key="x">
                       <li>{{ detail.rinci }}</li>
                     </ul>
                   </li>
@@ -65,9 +65,6 @@
               class="responsive-img d-none d-xl-block"
               alt="ilustrasi"
             />
-          </div>
-
-          <div class="visi col-xl-8 mt-5">
           </div>
         </div>
       </div>
