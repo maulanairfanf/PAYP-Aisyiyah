@@ -19,30 +19,55 @@
       <div class="m-0">
         <img
           src="img/panti/visimisiiilusi.svg"
-          class="w-100"
+          class="responsive-img w-100"
           alt="Foto-Panti"
         />
       </div>
-      <div>
-        <div>
-          <h3>Visi Kami</h3>
-          <div>
-            <ol>
-              <li v-for="(visi, i) in Visis" :key="i">{{ visi.isi }}</li>
-            </ol>
+      <div class="mt-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-xl-2 m-0 p-0">
+            <img
+              src="img/panti/1.svg"
+              class="responsive-img d-none d-xl-block"
+              alt="ilustrasi"
+            />
+
+            <img
+              src="img/panti/3.svg"
+              class="responsive-img d-none d-xl-block"
+              alt="ilustrasi"
+            />
           </div>
-        </div>
-        <div>
-          <h3>Misi Kami</h3>
-          <div>
-            <ol>
-              <li v-for="(misi, i) in Misis" :key="i">
-                {{ misi.isi }}
-                <ul>
-                  <li>{{misi.rincian}}</li>
-                </ul>
-              </li>
-            </ol>
+          <div class="col-xl-8">
+            <div class="col-xl-10">
+              <h3 class="font-weight-bold">Visi Kami</h3>
+              <ol class="h5">
+                <li class="mt-3" v-for="(visi, i) in Visis" :key="i">
+                  {{ visi.isi }}
+                </li>
+              </ol>
+              <h3 class="font-weight-bold">Misi Kami</h3>
+              <div class="col-xl-8">
+                <ol class="h5">
+                  <li class="mt-3" v-for="(misi, i) in Misis" :key="i">
+                    {{ misi.isi }}
+                    <ul v-for="(detail, x) in rincian" :key="x">
+                      <li>{{ detail.rinci }}</li>
+                    </ul>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 d-flex justify-content-end">
+            <img
+              src="img/panti/2.svg"
+              class="responsive-img d-none d-xl-block"
+              alt="ilustrasi"
+            />
+          </div>
+
+          <div class="visi col-xl-8 mt-5">
           </div>
         </div>
       </div>
