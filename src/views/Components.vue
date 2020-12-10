@@ -2,6 +2,7 @@
     <div>
         <!-- <hero></hero> -->
         <home></home>
+        <aboutUs></aboutUs>
         <kegiatan></kegiatan>
         <contact></contact>
         <!-- <inputs></inputs> -->
@@ -16,7 +17,8 @@
 </template>
 <script>
 // import Hero from "./components/Hero";
-import Home from "./components/Home";
+import Home from "./components/Home"
+import AboutUs from "./components/AboutUs";
 import Kegiatan from "./components/Kegiatan";
 import Contact from "./components/Contact";
 // import Inputs from "./components/Inputs";
@@ -33,6 +35,7 @@ export default {
   components: {
     // Hero,
     Home,
+    AboutUs,
     Kegiatan,
     Contact,
     // Inputs,
