@@ -11,12 +11,13 @@
       </div>
       <div class="container-fluid d-flex flex-row justify-content-around">
         <div class="visiMisi">
-          <div class="shadow">
-            <ul>
-              <img src="img/panti/maplokasi.png" class="img-fluid" alt="Map-Lokasi" />
-              <img src="img/panti/logoPanti.png" class="img-fluid" alt="Logo-Panti" />
-            </ul>
-
+          <div class="shadow row">
+            <div col-lg-6>
+              <img src="img/panti/maplokasi.png" class="img-fluid w-75 map" alt="Map-Lokasi" />
+            </div>
+            <div col-lg-6>
+              <img src="img/panti/logoPanti.png" class="img-fluid w-250 logo" alt="Logo-Panti" />
+            </div>
           </div>
         </div>
       </div>
@@ -30,10 +31,16 @@ export default {};
 .latar {
   width: 90%;
 }
+
+
 .shadow {
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 1em; 
+}
+
+.map{
+  border-radius: 30px ;
 }
 
 .visiMisi {
