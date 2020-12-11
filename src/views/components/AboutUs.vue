@@ -19,7 +19,7 @@
       <div class="m-0">
         <img
           src="img/panti/visimisiiilusi.svg"
-          class="responsive-img w-100"
+          class="responsive-img w-100 pos"
           alt="Foto-Panti"
         />
       </div>
@@ -34,7 +34,7 @@
 
             <img
               src="img/panti/3.svg"
-              class="responsive-img d-none d-xl-block m-0 p-0"
+              class="responsive-img d-none d-xl-block"
               alt="ilustrasi"
             />
           </div>
@@ -49,11 +49,23 @@
               <h3 class="font-weight-bold mt-5">Misi Kami</h3>
               <div class="col-xl-8">
                 <ol class="h5">
-                  <li class="mt-3" v-for="(misi, i) in Misis" :key="i">
+                  <!-- <li class="mt-3" v-for="(misi, i) in Misis" :key="i">
                     {{ misi.isi }}
-                    <ul v-for="(detail, x) in Misis.rincian" :key="x">
-                      <li>{{ detail.rinci }}</li>
+                    
+                  </li> -->
+                  <li class="mt-3">
+                    {{ Misis[0].isi }}
+                    <ul>
+                      <li>{{ Misis[0].rincian[0].rinci }}</li>
+                      <li>{{ Misis[0].rincian[1].rinci }}</li>
+                      <li>{{ Misis[0].rincian[2].rinci }}</li>
                     </ul>
+                  </li>
+                  <li class="mt-3">
+                    {{ Misis[1].isi }}
+                  </li>
+                  <li class="mt-3">
+                    {{ Misis[2].isi }}
                   </li>
                 </ol>
               </div>
@@ -61,7 +73,7 @@
           </div>
           <div class="col-xl-2 d-flex justify-content-end p-0 m-0">
             <img
-              src="img/panti/2.svg"
+              src="img/panti/2.svg "
               class="responsive-img d-none d-xl-block"
               alt="ilustrasi"
             />
