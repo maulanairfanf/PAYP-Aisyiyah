@@ -1,5 +1,5 @@
 <template>
-  <section class="section section-components pb-0" id="section-components">
+  <section class="section section-components pb-0" id="Contact">
     <div class="container-fluid">
       <div class="text-center">
         <!-- <img src="img/panti/fotoPanti.png" class="img-fluid" alt="Foto-Panti" /> -->

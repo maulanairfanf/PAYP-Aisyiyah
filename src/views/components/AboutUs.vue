@@ -1,5 +1,5 @@
 <template>
-  <section class="section section-components m-0 p-0">
+  <section class="section section-components m-0 p-0" id="AboutUs">
     <div class="p-0 m-0">
       <div class="text-center mt-0">
         <img src="img/panti/fotoPanti.png" class="w-100" alt="Foto-Panti" />
@@ -34,7 +34,7 @@
 
             <img
               src="img/panti/3.svg"
-              class="responsive-img d-none d-xl-block"
+              class="responsive-img d-none d-xl-block m-0 p-0"
               alt="ilustrasi"
             />
           </div>
@@ -59,7 +59,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-2 d-flex justify-content-end">
+          <div class="col-xl-2 d-flex justify-content-end p-0 m-0">
             <img
               src="img/panti/2.svg"
               class="responsive-img d-none d-xl-block"

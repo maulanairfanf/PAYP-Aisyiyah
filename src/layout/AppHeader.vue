@@ -36,7 +36,7 @@
           <!-- <i class="ni ni-collection d-lg-none "></i> -->
           <span class="nav-link-inner--text">Prestasi</span>
         </a>
-        <a slot="title" href="#About Us" class="nav-link ml-5" role="button">
+        <a slot="title" href="#AboutUs" class="nav-link ml-5" role="button">
           <!-- <i class="ni ni-collection d-lg-none"></i> -->
           <span class="nav-link-inner--text">About Us</span>
         </a>
