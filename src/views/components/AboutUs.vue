@@ -49,10 +49,6 @@
               <h3 class="font-weight-bold mt-5">Misi Kami</h3>
               <div class="col-xl-8">
                 <ol class="h5">
-                  <!-- <li class="mt-3" v-for="(misi, i) in Misis" :key="i">
-                    {{ misi.isi }}
-                    
-                  </li> -->
                   <li class="mt-3">
                     {{ Misis[0].isi }}
                     <ul>
