@@ -3,7 +3,7 @@
     <img
       src="img/panti/Group 13.svg"
       width="100%"
-      class="position-absolute"
+      class="position-absolute d-none d-xl-block"
       alt="Foto-Panti"
     />
     <div class="row p-5">

@@ -1,6 +1,6 @@
 <template>
   <section class="section section-components pb-0" id="Kegiatan">
-    <div class="container-fluid kegiatan">
+    <div class="container-fluid p-5">
       <div class="mb-5">
         <h3>Kegiatan</h3>
         <span>Our latest activity</span>
@@ -28,7 +28,7 @@
       <div class="mt-5 justify-content-around d-flex row">
         <div
           class="card rounded mt-3"
-          style="width: 22rem"
+          style="width: 24rem"
           v-for="(item, i) in items"
           :key="i"
         >
@@ -109,9 +109,7 @@ export default {
 </script>
 
 <style scoped>
-.kegiatan {
-  width: 90%;
-}
+
 .shadow {
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
