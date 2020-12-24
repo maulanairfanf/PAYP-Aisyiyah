@@ -1,12 +1,12 @@
 <template>
   <section class="section section-components pb-0" id="Kegiatan">
-    <div class="container-fluid p-5">
+    <div class="container-fluid p-5"  >
       <div class="mb-5">
-        <h3>Kegiatan</h3>
+        <h3 class="font-weight-bold">Kegiatan</h3>
         <span>Our latest activity</span>
       </div>
       <div class="d-flex justify-content-center">
-        <div class="shadow d-flex row pb-4 pr-3 pl-3 pt-4 row box kegiatan">
+        <div class="shadow d-flex row pb-4 pr-3 pl-3 pt-4 row">
           <div class="col-lg-6 mb-2">
             <img
               src="img/panti/jalanpagi.png"
@@ -15,10 +15,18 @@
             />
           </div>
           <div class="col-lg-6">
-            <h3>Jalan Pagi</h3>
-            <span
-              >Kegiatan jalan pagi merupakan olahraga yang dapat dilakukan dimana saja tanpa butuh peralatan khusus apapun. Meskipun sederhana, namun banyak manfaat yang bisa kita dapat dari jalan pagi.</span
-            >
+            <div class="mt-4 ml-4">
+              <h3 class="font-weight-bold">Jalan Pagi</h3>
+              
+              <span>Kegiatan jalan pagi merupakan olahraga</span>
+              <br>
+              <span
+                > yang dapat dilakukan dimana saja tanpa butuh peralatan khusus apapun. </span
+              >
+              <br>
+              <span>Meskipun sederhana, namun banyak manfaat yang bisa kita dapat dari jalan pagi.</span>
+           
+            </div>
           </div>
         </div>
       </div>
@@ -30,7 +38,8 @@
           :key="i"
         >
           <img
-            class="w-100 h-100 rounded"
+            class="rounded w-100"
+            
             :src="item.src"
             alt="Card image cap"
           />
@@ -49,6 +58,12 @@ export default {
   data() {
     return {
       items: [
+        {
+          tittle: "Jalan Pagi",
+          text:
+            "Some quick example text to build on the card title and make up the bulk of the card's content.",
+          src: "img/panti/jalanpagicrop.png",
+        },
         {
           tittle: "HUT RI",
           text:
@@ -91,12 +106,7 @@ export default {
             "Some quick example text to build on the card title and make up the bulk of the card's content.",
           src: "img/panti/wirausahatelurasin.png",
         },
-        {
-          tittle: "JalanPagi",
-          text:
-            "Some quick example text to build on the card title and make up the bulk of the card's content.",
-          src: "img/panti/jalanpagicrop.png",
-        },
+        
       ],
     };
   },
@@ -108,6 +118,7 @@ export default {
 .shadow {
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  width : 90% !important;
 }
 .pictKegiatan {
   width: 100%;
