@@ -17,10 +17,7 @@
           <div class="col-lg-6">
             <h3>Jalan Pagi</h3>
             <span
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo dolore beatae voluptate quia! Libero pariatur ut quam
-              consequatur magnam, alias culpa nostrum possimus doloribus,
-              corporis omnis doloremque fugiat dolorem sequi.</span
+              >Kegiatan jalan pagi merupakan olahraga yang dapat dilakukan dimana saja tanpa butuh peralatan khusus apapun. Meskipun sederhana, namun banyak manfaat yang bisa kita dapat dari jalan pagi.</span
             >
           </div>
         </div>
@@ -39,9 +36,7 @@
           />
           <div class="card-body">
             <h5 class="card-title">{{ item.tittle }}</h5>
-            <p class="card-text">
-              {{ item.text }}
-            </p>
+            
           </div>
         </div>
       </div>
@@ -97,10 +92,10 @@ export default {
           src: "img/panti/wirausahatelurasin.png",
         },
         {
-          tittle: "Title",
+          tittle: "JalanPagi",
           text:
             "Some quick example text to build on the card title and make up the bulk of the card's content.",
-          src: "img/panti/iduladha.png",
+          src: "img/panti/jalanpagicrop.png",
         },
       ],
     };

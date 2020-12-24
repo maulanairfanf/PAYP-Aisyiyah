@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-5">
+  <section class="mb-5 mt-5" id="Home" style="margin-top : 5% !important">
     <img
       src="img/panti/Group 13.svg"
       width="100%"
@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -36,6 +36,7 @@ export default {};
 </script>
 
 <style scoped>
+
 .heading {
   font-size: 36px;
 }

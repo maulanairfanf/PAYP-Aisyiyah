@@ -1,5 +1,5 @@
 <template>
-  <header class="header-global">
+  <header class="header-global fixed-top">
     <base-nav
       class="navbar-main d-flex justify-content-start shadow-lg mb-1 bg-white rounded"
       effect="light"
@@ -32,10 +32,7 @@
           <!-- <i class="ni ni-collection d-lg-none"></i> -->
           <span class="nav-link-inner--text">Kegiatan</span>
         </a>
-        <a slot="title" href="#Prestasi" class="nav-link ml-5" role="button">
-          <!-- <i class="ni ni-collection d-lg-none "></i> -->
-          <span class="nav-link-inner--text">Prestasi</span>
-        </a>
+        
         <a slot="title" href="#AboutUs" class="nav-link ml-5" role="button">
           <!-- <i class="ni ni-collection d-lg-none"></i> -->
           <span class="nav-link-inner--text">About Us</span>

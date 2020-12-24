@@ -88,7 +88,7 @@ export default {
           tittle:
             "PAYPA merupakan panti asuhan yang bertepatan di Kotabarat Surakarta, Jawa Tengah",
           isi:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eaque vel id. Sit delectus quas sed nostrum alias unde eius quibusdam amet necessitatibus beatae! Reprehenderit qui quidem earum sit quis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus consequatur commodi unde laborum necessitatibus, quidem praesentium debitis accusamus quos ipsa tempora quibusdam optio porro, corrupti aperiam voluptates assumenda repellat. Laudantium! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit earum ipsa similique consectetur! Accusantium vero tenetur tempora, saepe suscipit animi cupiditate error quisquam voluptatum vel sit nam laudantium cumque nemo!",
+            "Panti Asuhan Yatim Puteri Aisyiyah merupakan salah satu bagian dari amal usaha kegiatan sosial Muhammadiyah bagian PKU (Pembinaan Kesejahteraan Umat). Pada tahun 1968, pimpinan  Aisyiyah daerah Surakarta menyerahkan Panti Asuhan Yatim Puteri Aisyiyah kepada pimpinan Aisyiyah Cabang Kottabarat agar menjadi amalannya Aisyiyah Kottabarat ",
         },
       ],
       Visis: [
