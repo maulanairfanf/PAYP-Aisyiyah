@@ -1,23 +1,5 @@
 <template>
     <footer class="footer has-cards">
-        <div class="container container-lg">
-            <div class="row">
-                <div class="col-md-6 mb-5 mb-md-0">
-                    <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/landing" title="Landing Page">
-                            <img v-lazy="'img/theme/landing.jpg'" class="card-img">
-                        </router-link>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-5 mb-lg-0">
-                    <div class="card card-lift--hover shadow border-0">
-                        <router-link to="/profile" title="Profile Page">
-                            <img v-lazy="'img/theme/profile.jpg'" class="card-img">
-                        </router-link>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="container">
             <div class="row row-grid align-items-center my-md">
                 <div class="col-lg-6">
@@ -47,6 +29,83 @@
                     </a>
                 </div>
             </div>
+
+            <!-- <div class="container-fluid" id="section5">
+			<div class="container-fluid" id="section5-1">
+				<div class="row">
+					<div class="col-md-4">
+						<span id="Telyu">Telyu</span>
+						<span id="Pharmacy">Pharmacy</span>
+						<br>
+						<span id="create">Creating Your healty,</span>
+						<br>
+						<span id="create">For Your Future</span>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<p id="copyright">2020 TelyuPharmacy. All Rights Reserved</p>
+					</div>
+					<div class="col-md-2">
+						<ul class="navbar-nav">
+							<li id="section5-li">
+								<span id="section5-header">Explore</span>
+							</li>
+							<li>
+								<a class="nav-link" id="copyright" href="<?= site_url("Home"); ?>">Home</a>
+							</li>
+							<li>
+								<a class="nav-link" id="copyright" href="<?= site_url("Product"); ?>">Product</a>
+							</li>
+							<li>
+								<a class="nav-link" id="copyright" href="<?= site_url("Article"); ?>">Article</a>
+							</li>
+							<li>
+								<a class="nav-link" id="copyright" href="<?= site_url("Home/load_AboutUs"); ?>">About
+									Us</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul class="navbar-nav">
+							<li id="section5-2-li">
+								<span id="section5-header">Visit</span>
+							<li>
+							<li> <span id="copyright">TelyuPharmacy</span>
+								<span id="copyright">Jl Telekomunikasi, Sukapura, Kec.Dayeuhklot,</span>
+								<span id="copyright">Bandung, Jawa Barat</span><br>
+								<span id="copyright">40257</span>
+							</li>
+							<li>
+								<a id="section5-header">New Business</a>
+							</li>
+							<li>
+								<span id="copyright">telyupharmacy@gmail.com</span><br>
+								<span id="copyright">+62 227 565 930</span>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-2">
+						<ul class="navbar-nav">
+							<li id="section5-li">
+								<span id="section5-header">Follow</span>
+							</li>
+							<li>
+								<a class="nav-link" id="copyright" href="#">Instagram</a>
+							</li>
+							<li>
+								<a class="nav-link" id="copyright" href="#">Facebook</a>
+							</li>
+							<li>
+								<a class="nav-link" id="copyright" href="#">Twitter</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
             <hr>
             <div class="row align-items-center justify-content-md-between">
                 <div class="col-md-6">
@@ -75,6 +134,7 @@
                 </div>
             </div>
         </div>
+        
     </footer>
 </template>
 <script>
