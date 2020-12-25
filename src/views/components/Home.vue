@@ -1,7 +1,7 @@
 <template>
   <section class="mb-5 mt-5" id="Home" style="margin-top : 5% !important">
     <img
-      src="img/panti/Group 13.svg"
+      src="img/panti/BackgroundAboutUs.svg"
       width="100%"
       class="position-absolute d-none d-xl-block"
       alt="Foto-Panti"
@@ -36,7 +36,6 @@ export default {};
 </script>
 
 <style scoped>
-
 .heading {
   font-size: 36px;
 }

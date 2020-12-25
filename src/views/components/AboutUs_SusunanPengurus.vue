@@ -1,5 +1,5 @@
 <template>
-  <section class="section section-components pb-0" id="AboutUs_SusunanPengurus">
+  <section class="section section-components" id="AboutUs_SusunanPengurus">
     <div class=" m-0">
       <div class="mb-5 ml-5">
         <h3 class="font-weight-bold">Susunan Pengurus</h3>
@@ -16,7 +16,7 @@
           />
           <div class="col-xl-1 p-0 d-flex align-self-end">
             <img
-              src="img/panti/susunanpengurus_Kiri.svg"
+              src="img/panti/VectorSusunanPengurusKiri.svg"
               class="d-none d-xl-block d-flex align-self-end"
               alt="Vector"
             />
@@ -33,7 +33,7 @@
             class="col-xl-1 d-flex justify-content-end align-self-start - p-0"
           >
             <img
-              src="img/panti/susunanpengurus_Kanan.svg"
+              src="img/panti/VectorSusunanPengurusKanan.svg"
               class="d-none d-xl-block"
               alt="Vector"
               style="z-index: 1"

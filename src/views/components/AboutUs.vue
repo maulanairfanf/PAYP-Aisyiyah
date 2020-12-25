@@ -27,13 +27,13 @@
         <div class="row d-flex justify-content-center">
           <div class="col-xl-2 m-0 p-0">
             <img
-              src="img/panti/1.svg"
+              src="img/panti/VectorAboutUs_1.svg"
               class="responsive-img d-none d-xl-block"
               alt="ilustrasi"
             />
 
             <img
-              src="img/panti/3.svg"
+              src="img/panti/VectorAboutUs_3.svg"
               class="responsive-img d-none d-xl-block"
               alt="ilustrasi"
             />
@@ -69,7 +69,7 @@
           </div>
           <div class="col-xl-2 d-flex justify-content-end p-0 m-0">
             <img
-              src="img/panti/2.svg "
+              src="img/panti/VectorAboutUs_2.svg "
               class="responsive-img d-none d-xl-block"
               alt="ilustrasi"
             />
@@ -129,5 +129,4 @@ export default {
   },
 };
 </script>
-<style scoped>
-</style>
+<style scoped></style>
