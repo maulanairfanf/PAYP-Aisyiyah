@@ -5,7 +5,7 @@
         <div class=" p-0 d-flex justify-content-end">
           <img
             src="img/panti/VectorTentangPantiKanan.svg"
-            class="position-absolute"
+            class="position-absolute responsive-img d-none d-xl-block"
             alt="Vector"
           />
         </div>
@@ -76,13 +76,13 @@
           </div>
         </div>
       </div>
-      <div class="d-flex justify-content-start align-self-start  p-0">
+      <!-- <div class="d-flex justify-content-start align-self-start  p-0">
         <img
           src="img/panti/VectorTentangPantiKiri.svg"
-          class="position-absolute"
+          class="position-absolute responsive-img d-none d-xl-block"
           alt="Vector"
         />
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
