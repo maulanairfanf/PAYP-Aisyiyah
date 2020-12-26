@@ -18,11 +18,11 @@
             </ol>
           </div>
         </div>
-        <div class="col-lg-5 text-center mt-sm-5">
+        <div class="col-lg-5 text-center mt-5">
           <img
             src="img/panti/ilustrasiPenerimaan.svg"
-            alt=""
-            class="responsive-img rounded"
+            alt="ilustrasi search"
+            class="img-fluid"
           />
         </div>
       </div>
