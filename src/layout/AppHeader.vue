@@ -25,14 +25,14 @@
       <ul class="navbar-nav navbar-nav-hover d-flex justify-content-around">
         <!-- <router-link to="/JavascriptComponents/home" class="dropdown-item">Landing</router-link> -->
         <a slot="title" href="#Home" class="nav-link ml-5" role="button">
-          <!-- <i class="ni ni-collection d-lg-none"></i> -->
+          <!-- <i class="ni ni-bullet-list-67 d-lg-none"></i> -->
           <span class="nav-link-inner--text">Home</span>
         </a>
         <a slot="title" href="#Kegiatan" class="nav-link ml-5" role="button">
           <!-- <i class="ni ni-collection d-lg-none"></i> -->
           <span class="nav-link-inner--text">Kegiatan</span>
         </a>
-        
+
         <a slot="title" href="#AboutUs" class="nav-link ml-5" role="button">
           <!-- <i class="ni ni-collection d-lg-none"></i> -->
           <span class="nav-link-inner--text">About Us</span>

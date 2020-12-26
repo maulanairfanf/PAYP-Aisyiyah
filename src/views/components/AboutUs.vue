@@ -24,6 +24,7 @@
         />
       </div>
       <div class="mt-5">
+        \
         <div class="row d-flex justify-content-center">
           <div class="col-xl-2 m-0 p-0">
             <img
