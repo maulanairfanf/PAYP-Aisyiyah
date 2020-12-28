@@ -23,24 +23,62 @@
       </div>
 
       <ul class="navbar-nav navbar-nav-hover d-flex justify-content-around">
-        <!-- <router-link to="/JavascriptComponents/home" class="dropdown-item">Landing</router-link> -->
-        <a slot="title" href="#Home" class="nav-link ml-5" role="button">
-          <!-- <i class="ni ni-bullet-list-67 d-lg-none"></i> -->
-          <span class="nav-link-inner--text">Home</span>
-        </a>
-        <a slot="title" href="#Kegiatan" class="nav-link ml-5" role="button">
-          <!-- <i class="ni ni-collection d-lg-none"></i> -->
-          <span class="nav-link-inner--text">Kegiatan</span>
-        </a>
-
-        <a slot="title" href="#AboutUs" class="nav-link ml-5" role="button">
-          <!-- <i class="ni ni-collection d-lg-none"></i> -->
-          <span class="nav-link-inner--text">About Us</span>
-        </a>
-        <a slot="title" href="#Contact" class="nav-link ml-5" role="button">
-          <!-- <i class="ni ni-collection d-lg-none"></i> -->
-          <span class="nav-link-inner--text">Contact</span>
-        </a>
+        <li>
+          <a slot="title" href="#Home" class="nav-link ml-5" role="button">
+            <span class="nav-link-inner--text">Home</span>
+          </a>
+        </li>
+        <li>
+          <a slot="title" href="#Kegiatan" class="nav-link ml-5" role="button">
+            <span class="nav-link-inner--text">Kegiatan</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            slot="title"
+            class="nav-link  dropdown-toggle ml-5 "
+            href="#AboutUs"
+            data-toggle="dropdown"
+            role="button"
+          >
+            <span class="nav-link-inner--text">AboutUs</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a
+                class="dropdown-item nav-link-inner--text font-weight-normal"
+                href="#AboutUs"
+                >Visi dan Misi</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item nav-link-inner--text font-weight-normal"
+                href="#AboutUs_SusunanPengurus"
+                >Susunan Pengurus</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item nav-link-inner--text font-weight-normal"
+                href="#AboutUs_TentangPanti"
+                >Tentang Panti</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item nav-link-inner--text font-weight-normal"
+                href="#AboutUs_KriteriaPeneriaan"
+                >Kriteria Penerimaan</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a slot="title" href="#Contact" class="nav-link ml-5" role="button">
+            <span class="nav-link-inner--text ">Contact</span>
+          </a>
+        </li>
       </ul>
     </base-nav>
   </header>
@@ -67,5 +105,15 @@ export default {
 }
 .nav-link-inner--text:hover {
   color: #4f76a9;
+}
+
+.dropdown-item {
+  color: #a1a1a1;
+}
+.dropdown-item:hover {
+  color: #a1a1a1;
+}
+.dropdown-item:focus {
+  color: white;
 }
 </style>
