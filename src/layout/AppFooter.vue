@@ -1,208 +1,91 @@
 <template>
-  <footer class="footer has-cards">
-    <div class="container">
-      <div class="row row-grid align-items-center my-md">
-        <div class="col-lg-6">
-          <h3 class="text-primary font-weight-light mb-2">
-            Thank you for supporting us!
-          </h3>
-          <h4 class="mb-0 font-weight-light">
-            Let's get in touch on any of these platforms.
-          </h4>
-        </div>
-        <div class="col-lg-6 text-lg-center btn-wrapper">
-          <a
-            target="_blank"
-            rel="noopener"
-            href="https://twitter.com/creativetim"
-            class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg"
-            data-toggle="tooltip"
-            data-original-title="Follow us"
-          >
-            <i class="fa fa-twitter"></i>
-          </a>
-          <a
-            target="_blank"
-            rel="noopener"
-            href="https://www.facebook.com/creativetim"
-            class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg"
-            data-toggle="tooltip"
-            data-original-title="Like us"
-          >
-            <i class="fa fa-facebook-square"></i>
-          </a>
-          <a
-            target="_blank"
-            rel="noopener"
-            href="https://dribbble.com/creativetim"
-            class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round"
-            data-toggle="tooltip"
-            data-original-title="Follow us"
-          >
-            <i class="fa fa-dribbble"></i>
-          </a>
-          <a
-            target="_blank"
-            rel="noopener"
-            href="https://github.com/creativetimofficial"
-            class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg"
-            data-toggle="tooltip"
-            data-original-title="Star on Github"
-          >
-            <i class="fa fa-github"></i>
-          </a>
-        </div>
-      </div>
+    <footer class="footer background">		
+		        
 
-      <div class="container-fluid" id="section5">
-        <div class="container-fluid" id="section5-1">
-          <div class="row">
-            <div class="col-md-4">
-              <span id="Telyu">Telyu</span>
-              <span id="Pharmacy">Pharmacy</span>
-              <br />
-              <span id="create">Creating Your healty,</span>
-              <br />
-              <span id="create">For Your Future</span>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <p id="copyright">2020 TelyuPharmacy. All Rights Reserved</p>
-            </div>
-            <div class="col-md-2">
-              <ul class="navbar-nav">
-                <li id="section5-li">
-                  <span id="section5-header">Explore</span>
-                </li>
-                <li>
-                  <a class="nav-link" id="copyright" href="#Home">Home</a>
-                </li>
-                <li>
-                  <a class="nav-link" id="copyright" href="">Product</a>
-                </li>
-                <li>
-                  <a class="nav-link" id="copyright" href="">Article</a>
-                </li>
-                <li>
-                  <a class="nav-link" id="copyright" href="">About Us</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <ul class="navbar-nav">
-                <li id="section5-2-li">
-                  <span id="section5-header">Visit</span>
-                </li>
+            <div class="container-fluid" id="section5">
+			<div class="container-fluid" id="section5-1">
+				<div class="row text-white">
+					<div class="col-md-3">
+            <div class = "ml-4">
+              <img
+					    src="img/panti/Pantipanti.png"
+					    class="img-fluid map"
+					    alt="logo-baru"
+            />
+            <p class="mt-3">
+					    Supported by
+				    </p>
 
-                <li></li>
-                <li>
-                  <span id="copyright">TelyuPharmacy</span>
-                  <span id="copyright"
-                    >Jl Telekomunikasi, Sukapura, Kec.Dayeuhklot,</span
-                  >
-                  <span id="copyright">Bandung, Jawa Barat</span><br />
-                  <span id="copyright">40257</span>
-                </li>
-                <li>
-                  <a id="section5-header">New Business</a>
-                </li>
-                <li>
-                  <span id="copyright">telyupharmacy@gmail.com</span><br />
-                  <span id="copyright">+62 227 565 930</span>
-                </li>
-              </ul>
+            <img
+					    src="img/panti/Tel-U.png"
+					    class="img-fluid map"
+					    alt="tel-u"
+            />   
+						<br>
+						<br>
+						<p>@ {{year}} TelyuPharmacy. All Rights Reserved</p>
             </div>
-            <div class="col-md-2">
+					</div>
+					<div class="col-md-3">
+						<div class = "d-flex justify-content-md-around ml-4">
               <ul class="navbar-nav">
-                <li id="section5-li">
-                  <span id="section5-header">Follow</span>
-                </li>
-                <li>
-                  <a class="nav-link" id="copyright" href="#">Instagram</a>
-                </li>
-                <li>
-                  <a class="nav-link" id="copyright" href="#">Facebook</a>
-                </li>
-                <li>
-                  <a class="nav-link" id="copyright" href="#">Twitter</a>
-                </li>
-              </ul>
+							<li>
+								<span>Explore</span>
+							</li>
+							<li>
+								<a class="nav-link text-white" href="#Home">Home</a>
+							</li>
+							<li>
+								<a class="nav-link text-white" href="#Kegiatan">Kegiatan</a>
+							</li>
+							<li>
+								<a class="nav-link text-white" href="#AboutUs">About Us</a>
+							</li>
+							<li>
+								<a class="nav-link text-white" href="#Contact">Contact</a>
+							</li>
+						</ul>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <hr />
-      <div class="row align-items-center justify-content-md-between">
-        <div class="col-md-6">
-          <div class="copyright">
-            &copy; {{ year }}
-            <a
-              href="https://www.creative-tim.com"
-              target="_blank"
-              rel="noopener"
-              >Creative Tim</a
-            >
-            &
-            <a href="https://www.binarcode.com" target="_blank" rel="noopener"
-              >Binar Code</a
-            >
-          </div>
-        </div>
-        <div class="col-md-6">
-          <ul class="nav nav-footer justify-content-end">
-            <li class="nav-item">
-              <a
-                href="https://www.creative-tim.com"
-                class="nav-link"
-                target="_blank"
-                rel="noopener"
-                >Creative Tim</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="https://www.creative-tim.com/presentation"
-                class="nav-link"
-                target="_blank"
-                rel="noopener"
-                >About Us</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="http://blog.creative-tim.com"
-                class="nav-link"
-                target="_blank"
-                rel="noopener"
-                >Blog</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
-                class="nav-link"
-                target="_blank"
-                rel="noopener"
-                >MIT License</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+					</div>
+					<div class="col-md-6">
+						<ul class="navbar-nav ml-4 mt-xs-2">
+							<li>
+								<span>Visit</span>
+							<li>
+              <br>
+							<li> 
+								<span>Jl.Sam Ratu Langi, No. 34/38. Manahan, Kec. Banjarsari,</span><br>
+								<span>Kota Surakarta,Jawa Tengah</span><br>
+								<span>57139</span>
+							</li>
+							<li class = "mt-3">
+								<span>Contact</span>
+							<li>
+              <br>
+							<li> 
+								<span>081329707508 </span><br>
+								<span>(Saptono Budi Prasojo, S.Pd, M.Si)</span><br>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>        
+    </footer>
 </template>
 <script>
 export default {
-  name: "app-footer",
+  name: 'app-footer',
   data() {
     return {
-      year: new Date().getFullYear(),
-    };
-  },
+      year: new Date().getFullYear()
+    }
+  }
 };
 </script>
-<style></style>
+<style scoped>
+.background{
+  background-color: #3C5C8C;
+}
+</style>
+
