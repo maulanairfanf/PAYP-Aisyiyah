@@ -1,5 +1,5 @@
 <template>
-  <section class="mb-5 mt-5" id="Home" style="margin-top : 5% !important">
+  <section class="mb-5 mt-5" id="Home">
     <img
       src="img/panti/BackgroundAboutUs.svg"
       width="100%"

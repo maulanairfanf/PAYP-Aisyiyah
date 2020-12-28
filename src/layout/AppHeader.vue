@@ -1,5 +1,5 @@
 <template>
-  <header class="header-global fixed-top">
+  <header class="header-global  sticky-top ">
     <base-nav
       class="navbar-main d-flex justify-content-start shadow-lg mb-1 bg-white rounded"
       effect="light"
